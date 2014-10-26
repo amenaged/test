@@ -1,0 +1,32 @@
+// GIT REFERENCE STEPS
+
+/*
+ * Initialize a new Git repository
+ * or clone an existing one on GitHub.
+ */
+git init /* OR */ git clone <url>
+// Create files, make changes.
+
+/*
+ * Start following the changed files.
+ */
+git add <file> <directory>
+
+/*
+ * Commit the changes to the repository.
+ */
+git commit -m "<message>"
+
+/*
+ * Check the status of the current 
+ * Git repository.
+ */
+git status
+
+/*
+ * Push the changes to GitHub.
+ */
+git remote add origin <url>
+git push origin master
+// Prompts GitHub username and password.
+
